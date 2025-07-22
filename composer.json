@@ -17,6 +17,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "guzzlehttp/guzzle": "8.0.x-dev"
+        "guzzlehttp/guzzle": "^8.0"
     }
 }
