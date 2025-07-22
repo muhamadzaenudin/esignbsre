@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "name": "muhamadzaenudin/esignbsre",
+    "description": "Package untuk penggunaan API E-Sign dari BSSN dengan bahasa PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Muhamadzaenudin\\Esignbsre\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhamad Zaenudin",
+            "email": "muzaen@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "8.0.x-dev"
+    }
+}

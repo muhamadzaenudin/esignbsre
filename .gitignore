@@ -1,0 +1,11 @@
+# Composer dependencies
+/vendor/
+
+# IDEs and editors
+/.vscode/
+
+# Open Server Panel
+/.osp/
+
+# index.php
+index.php
