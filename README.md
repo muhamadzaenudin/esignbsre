@@ -54,7 +54,7 @@ composer require muhamadzaenudin/esignbsre
 
   // sign
   $response = $esign
-      ->setType('invisible')
+      ->setType('invisible') // invisible, imagettd, qr, tagkoordinat
       ->sign($configSign);
 
   // verify
