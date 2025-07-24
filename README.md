@@ -53,6 +53,12 @@ composer require muhamadzaenudin/esignbsre
   $response = $esign->statusUser($nik);
 
   // sign
+  // parameter 
+  // invisible = ['file', 'nik', 'passphrase','reason', 'location'];
+  // imagettd = ['file', 'nik', 'passphrase','imageTTD', 'page', 'xAxis', 'yAxis', 'width', 'height', 'reason', 'location'];
+  // qr = ['file', 'nik', 'passphrase','imageTTD', 'page', 'linkQR', 'xAxis', 'yAxis', 'width', 'height', 'reason', 'location'];
+  // tag_koordinat = ['file', 'nik', 'passphrase','imageTTD', 'width', 'height', 'tag_koordinat', 'reason', 'location'];
+
   $response = $esign
       ->setType('invisible') // invisible, imagettd, qr, tagkoordinat
       ->sign($configSign);
